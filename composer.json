@@ -1,0 +1,25 @@
+{
+    "name": "bitcoinvietnam/bitcoinvietnam-php",
+    "description": "A PHP library to interact with the Bitcoin Vietnam API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Winter",
+            "email": "alex@bitcoin.vn"
+        }
+    ],
+    "require": {
+        "jms/serializer": "^1.5|^2.0|^3.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "doctrine/collections": "^1.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitcoinVietnam\\BitcoinVietnam\\": "src/"
+        }
+    }
+}
